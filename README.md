@@ -8,12 +8,12 @@ This document explains how to install and run Prometheus Node Exporter on Linux 
 **Default install (v1.9.1)**
 
 ```bash
-curl -sSL https://your.domain/install-node-exporter.sh | bash
+curl -sSL https://raw.githubusercontent.com/nhanchaukp/quick-installation/refs/heads/main/install_node_exporter.sh | bash
 ```
 
 **Custom version**
 
 ```bash
 VERSION=1.9.0
-curl -sSL https://your.domain/install-node-exporter.sh | bash
+curl -sSL https://raw.githubusercontent.com/nhanchaukp/quick-installation/refs/heads/main/install_node_exporter.sh | bash
 ```
