@@ -5,13 +5,13 @@ Quick installtion scripts for devops.
 
 This document explains how to install and run Prometheus Node Exporter on Linux systems using a one-line installer script. The script automatically detects your CPU architecture, downloads the correct binary, creates a dedicated user, sets up a systemd service, and starts the exporter.
 
-### Default install (v1.9.1)
+**Default install (v1.9.1)**
 
 ```bash
 curl -sSL https://your.domain/install-node-exporter.sh | bash
 ```
 
-### Custom version
+**Custom version**
 
 ```bash
 VERSION=1.9.0
